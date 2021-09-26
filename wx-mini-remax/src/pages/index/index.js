@@ -3,6 +3,7 @@ import { View } from 'remax/wechat';
 import Row from '@vant/weapp/lib/row';
 import Button from '@vant/weapp/lib/button';
 import styles from './index.css';
+import { useAppEvent } from 'remax/macro';
 
 const buttonConfig = [
   {
@@ -28,6 +29,12 @@ const buttonConfig = [
 ];
 
 export default () => {
+  useAppEvent('onUnhandledRejection', (options) => {
+    console.log('onUnhandledRejection', options);
+  });
+  useAppEvent('onLaunch', (options) => {
+    console.log('app onLaunch');
+  });
   const handler = (action) => {
     switch (action) {
       case 'reject':

@@ -10,6 +10,7 @@ const MitoInstance = init(
     maxBreadcrumbs: 100,
     // 配置上报时的请求头
     configReportWxRequest(data) {
+      console.log('configReportWxRequest', event);
       return {
         header: {
           'Content-Type': 'text/plain;charset=UTF-8',
