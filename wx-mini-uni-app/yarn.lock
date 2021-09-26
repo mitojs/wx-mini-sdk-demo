@@ -1493,6 +1493,71 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@mitojs/browser@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.npmmirror.com/@mitojs/browser/download/@mitojs/browser-2.1.27.tgz#c409fc6d6c296aeb4a4ab2d7afbf2915cdb867e8"
+  integrity sha1-xAn8bWwpautKSrLXr78pFc24Z+g=
+  dependencies:
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+
+"@mitojs/core@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.npmmirror.com/@mitojs/core/download/@mitojs/core-2.1.27.tgz#c22d1a1d0ba624ce2560fa26825b1818020143b8"
+  integrity sha1-wi0aHQumJM4lYPomglsYGAIBQ7g=
+  dependencies:
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+
+"@mitojs/shared@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.npmmirror.com/@mitojs/shared/download/@mitojs/shared-2.1.27.tgz#ae1c511b1553cd6ad1cdc80b3e90ba7a8e03843e"
+  integrity sha1-rhxRGxVTzWrRzcgLPpC6eo4DhD4=
+
+"@mitojs/types@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.npmmirror.com/@mitojs/types/download/@mitojs/types-2.1.27.tgz#4c7a64f7019c55b4ab3a8b69cca8425e372a213a"
+  integrity sha1-THpk9wGcVbSrOotpzKhCXjcqITo=
+  dependencies:
+    "@mitojs/browser" "2.1.27"
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+    "@types/wechat-miniprogram" "^3.1.0"
+
+"@mitojs/utils@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.npmmirror.com/@mitojs/utils/download/@mitojs/utils-2.1.27.tgz#66a9e43039f0e963099a73dae6d6829ccaa2ab18"
+  integrity sha1-ZqnkMDnw6WMJmnPa5taCnMqiqxg=
+  dependencies:
+    "@mitojs/browser" "2.1.27"
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+
+"@mitojs/vue@^2.1.27":
+  version "2.1.27"
+  resolved "https://registry.npmmirror.com/@mitojs/vue/download/@mitojs/vue-2.1.27.tgz#9b5f3a5fad8ea01d1060ec31fb47eec0bc00efff"
+  integrity sha1-m186X62OoB0QYOwx+0fuwLwA7/8=
+  dependencies:
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+
+"@mitojs/wx-mini@^2.1.27":
+  version "2.1.27"
+  resolved "https://registry.npmmirror.com/@mitojs/wx-mini/download/@mitojs/wx-mini-2.1.27.tgz#771aa3928a6cf4310dc91bc3ebb80bc22dd99fee"
+  integrity sha1-dxqjkops9DENyRvD67gLwi3Zn+4=
+  dependencies:
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+    "@types/wechat-miniprogram" "^3.1.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1763,6 +1828,11 @@
     "@types/webpack-sources" "*"
     anymatch "^3.0.0"
     source-map "^0.6.0"
+
+"@types/wechat-miniprogram@^3.1.0":
+  version "3.4.0"
+  resolved "https://registry.nlark.com/@types/wechat-miniprogram/download/@types/wechat-miniprogram-3.4.0.tgz#d743d5b3c17bd531c2c178ea1fe9d92a0b23bcd0"
+  integrity sha1-10PVs8F71THCwXjqH+nZKgsjvNA=
 
 "@types/yargs-parser@*":
   version "20.2.1"
