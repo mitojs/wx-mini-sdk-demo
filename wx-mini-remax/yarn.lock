@@ -991,6 +991,71 @@
     hoist-non-react-statics "^3.3.1"
     react-is "^16.12.0"
 
+"@mitojs/browser@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/@mitojs/browser/-/browser-2.1.27.tgz#c409fc6d6c296aeb4a4ab2d7afbf2915cdb867e8"
+  integrity sha512-GdNk5f71tMUwB3zyDJJvAly3S7pOv0ppAlfpfL7A4RzaMVBtFJS1XCeFsI1V9NgBuerevt2qRlapuET0X/A2Pw==
+  dependencies:
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+
+"@mitojs/core@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/@mitojs/core/-/core-2.1.27.tgz#c22d1a1d0ba624ce2560fa26825b1818020143b8"
+  integrity sha512-gXNs2sCo3OIygv3JF7KhnsR8uhKRelq89lONbqRCFGyxVxdjkddSgzKYSQTcFyWUOQLew4eakAUc8W0ffYRmMw==
+  dependencies:
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+
+"@mitojs/react@^2.1.27":
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/@mitojs/react/-/react-2.1.27.tgz#61d2244b24a96ee26bf9df5ddf14fdeaf6c92ba8"
+  integrity sha512-UDPcMmd/IZLzBj4KVfDMkxE/I8thb7WrP7xw3lKyyaklwxOf5Uz6bTm5kbl12uepeuGEn8I3Ybazh4i2dl19jA==
+  dependencies:
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+
+"@mitojs/shared@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/@mitojs/shared/-/shared-2.1.27.tgz#ae1c511b1553cd6ad1cdc80b3e90ba7a8e03843e"
+  integrity sha512-hUHqtVrqJNoLKtsafL0Oic17VRdoxw/7bNUtEUFtswnMe2bq6O7jBgwuNdfQcp89BIac3cAKmk2+MlNGs6QQEQ==
+
+"@mitojs/types@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/@mitojs/types/-/types-2.1.27.tgz#4c7a64f7019c55b4ab3a8b69cca8425e372a213a"
+  integrity sha512-rCN+/Y52jIrrArJXn6VUOcV+EyaeR1Tso9kLFfOVMEm4j0rVI5bPtSCNTNF8h1V9QTh0YyMxuibTrKRg4HZa+Q==
+  dependencies:
+    "@mitojs/browser" "2.1.27"
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+    "@types/wechat-miniprogram" "^3.1.0"
+
+"@mitojs/utils@2.1.27":
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/@mitojs/utils/-/utils-2.1.27.tgz#66a9e43039f0e963099a73dae6d6829ccaa2ab18"
+  integrity sha512-42mOfiflPErIJvbmjR2xTJTuzEx1V7XOdGpk6ernisD98/JbpcuAcvbXQaWlf9iJR3Jd0JEBbS6lb4+ggiy8LQ==
+  dependencies:
+    "@mitojs/browser" "2.1.27"
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+
+"@mitojs/wx-mini@^2.1.27":
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/@mitojs/wx-mini/-/wx-mini-2.1.27.tgz#771aa3928a6cf4310dc91bc3ebb80bc22dd99fee"
+  integrity sha512-zYAjtas7rwBSx9ijuhg8Dye0Jm/s1EBWam9YzFcmXS2sDgSoC57TJA0sEkdMzgeISA9cDybybC/W8eMNI07tzQ==
+  dependencies:
+    "@mitojs/core" "2.1.27"
+    "@mitojs/shared" "2.1.27"
+    "@mitojs/types" "2.1.27"
+    "@mitojs/utils" "2.1.27"
+    "@types/wechat-miniprogram" "^3.1.0"
+
 "@remax/ali@2.15.6":
   version "2.15.6"
   resolved "https://registry.yarnpkg.com/@remax/ali/-/ali-2.15.6.tgz#204ec60e5f1b9411b89137d34e494909648db332"
@@ -1297,6 +1362,11 @@
     "@types/webpack-sources" "*"
     anymatch "^3.0.0"
     source-map "^0.6.0"
+
+"@types/wechat-miniprogram@^3.1.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@types/wechat-miniprogram/-/wechat-miniprogram-3.4.0.tgz#d743d5b3c17bd531c2c178ea1fe9d92a0b23bcd0"
+  integrity sha512-7d7KDwoV42/ANx/0C8C4ctBv1q9XnXYD4Fz0C+3ii0Tm+HRIwwDcinv8S88Ut/Y80czlI0shGpTgLFe0GbrXWQ==
 
 "@types/yargs-parser@*":
   version "20.2.1"
