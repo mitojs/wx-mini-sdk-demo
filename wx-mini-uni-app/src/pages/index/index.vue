@@ -56,6 +56,10 @@ export default {
           return wx.request({
             url: 'https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html',
             method: 'GET',
+            success(res){},
+            error(error){
+              throw error
+            }
           });
         case 'notFound':
           return wx.redirectTo({
@@ -64,6 +68,10 @@ export default {
         case 'downloadError':
           return wx.downloadFile({
             url: 'https://camo.githubusercontent.com/b93f8712a9212688d94dc45545437f911d36c8616c4d844f3d907546db5352ec/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30372f32382f4576507764344e6a5648337442664f2e6a7067',
+            success(res){},
+            error(error){
+              throw error
+            }
           });
       }
     },
